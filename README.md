@@ -1,4 +1,4 @@
-💊 Sun Pharma Chatbot
+💊 Sun Pharma Chatbot - Live Project 🔗 Live Demo: https://sunpharma--rag--chatbot.streamlit.app
 
 A smart, retrieval-based chatbot that answers questions about Sun Pharma using only the provided company data. No hallucination - if information is not in the data, it clearly says so.
 
