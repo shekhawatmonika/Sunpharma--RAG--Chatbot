@@ -2,7 +2,7 @@ from ntpath import join
 import os
 import re
 
-DATA_FOLDER = "data_sunpharma"
+DATA_FOLDER = "data"
 
 def normalize_spelling(word):
     word = word.replace("licencing", "licensing")
