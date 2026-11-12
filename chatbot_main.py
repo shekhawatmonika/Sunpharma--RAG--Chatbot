@@ -50,11 +50,11 @@ def tokenize(text):
 
 def load_chunks():
     chunks = []
-    if not os.path.exists(DATA_FOLDER):
+    if not os.path.exists(data):
         return chunks
-    for filename in os.listdir(DATA_FOLDER):
+    for filename in os.listdir(data):
         if filename.endswith(".txt"):
-            path = os.path.join(DATA_FOLDER, filename)
+            path = os.path.join(data, filename)
             with open(path, "r", encoding="utf-8", errors="ignore") as f:
                 text = f.read()
             parts = re.split(r"\n\s*\n", text)
